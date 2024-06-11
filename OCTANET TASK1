@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Annamacharya institute of techonology and science Tirupati </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>  Annamacharya Institute of Technology and Sciences, established in 2007, is affiliated to JNTU, Anantapur and accredited by AICTE. Approved by UGC, AITS offers B.Tech courses in nine disciplines at the UG level and MBA and M.Tech programs at the PG level. Admission to the UG and PG courses offered by the institute is done based on the candidate’s performance in national/ state level entrance examinations. 
+
+                    The placement office at the institute enables the students to access a wide range of employment and a lot of career ventures. Some of the top recruiters that recruit students from AITS, Tirupati include Hyundai, MPhasis, Preva, Infanion, Kia Motors, HCL, IBM among various others. 
+                    
+                    Check: Annamacharya Institute Admission
+                    
+                   
+                    The Annamacharya Institute of Technology and Sciences offers BTech, MBA and MTech courses at the UG and PG level. Tabulated below are the details of the same:
+                    Placements 2020-21	228 students
+                   ir comfort. Some of the prominent ones are given below: 
+                    
+                    Library: The Central library has a vast collection of books and is upgraded on a regular basis. The library subscribes to popular periodicals, national and international journals. The library also has Educational Audio & Video Cassettes, CD ROMs, Back Volumes, Project Reports, Thesis report
+                    Ques. How can I apply for admission to the Annamacharya Institute             .</p>
+            </div>
+        </section>
+
+        <section id="courses">
+            <div class="container">
+                <h2>Our Courses</h2>
+                <ul>
+                    <li>Computer Science</li>
+                    <li>Business Administration</li>
+                    <li>Engineering</li>
+                    <li>pharmacy</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="admissions">
+            <div class="container">
+                <h2>Admissions</h2>
+                <p>Apply now to join our prestigious institution. Limited seats available!</p>
+                <a href="#" class="btn">Apply Now</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Email: aits1242@gmail.com</p>
+                <p>Phone: 9502792372</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AITSS College. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
